@@ -1,0 +1,79 @@
+#main-page {
+  background-image: url("https://img.freepik.com/free-photo/3d-render-grunge-room-interior-with-foggy-atmosphere_1048-14608.jpg?w=740&t=st=1697959789~exp=1697960389~hmac=5cd5679afd373aa3cff5bf9743124a217b6a05ed33168adb287dc256fa9de023");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 100px;
+}
+.flex {
+    justify-content: space-around;
+}
+.flex h2{
+    color: #fff;
+}
+.temp{
+    justify-content: center;
+    align-items: end;
+    margin-top: 100px;
+}
+.degree{
+    color: #fff;
+    font-size: 100px;
+    text-align: end;
+}
+.city{
+    color: #fff;
+    text-align: end;
+}
+.weather{
+    margin-top: 50px;
+}
+.wind{
+    color: #fff;
+} 
+.humidity{
+    color: #fff;
+    
+}
+.text-align img{
+    width: 65px;
+
+}
+p{
+    color: #fff;
+}
+.search-box{
+    position: relative;
+}
+.search-box input{
+    padding: 5px;
+    border: none;
+    outline: 2px solid rgba(22, 15, 15, 0.333);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.search-icon{
+    position: absolute;
+    top: 0px;
+    right: -25px;
+    padding: 9px 20px;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.date h5{
+ color: #fff;
+}

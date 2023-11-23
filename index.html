@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather APP</title>
+    <!-- ==============================link-section============================= -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- =====================google-fonts========================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ===========================font-awosome-cdn============================ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- ==============================link-section============================= -->
+  </head>
+  <body>
+    <section id="main-page">
+      <div class="container">
+        <div class="d-flex flex">
+          <h2>Weather APP</h2>
+          <div class="search-box">
+            <input type="text" placeholder="Enter a city name" />
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <p class="message"></p>
+          </div>
+        </div>
+        <div class="date">
+            <h5 class="dates">00/00/00</h5>
+        </div>
+        <div class="temp row">
+          <div class="col-xl-2"></div>
+          <picture class="col-xl-5">
+            <img src="images/sun_show.png" alt="" />
+          </picture>
+          <div class="col-xl-3">
+            <h1 class="degree">28 C</h1>
+            <h5 class="city"></h5>
+          </div>
+          <div class="col-xl-2"></div>
+        </div>
+        <div class="row weather">
+          <div class="col-xl-2"></div>
+          <div class="col-xl-6 d-flex">
+            <picture>
+              <img src="images/wind.svg" alt="" />
+            </picture>
+            <div>
+              <h2 class="wind">00 km/h</h2>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+          
+          <div class="col-xl-3 d-flex text-align">
+            <picture>
+              <img src="images/4005754.png" alt="#"/>
+            </picture>
+            <div>
+              <h2 class="humidity">00%</h2>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col-xl-1"></div>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
